@@ -1,9 +1,11 @@
-# File_Renamer_II
+# File_Renamer_III
 
 ![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.tidyverse.org/lifecycle/#stable)
 
 ## Description
+
+*This version is a rewrite to compensate for third party NIC drivers. In this case for Broadcom gigabit ethernet drivers which don't support some WMI methods that caused exceptions to get thrown when seeking the list of connected hard drives. Once it's been vetted I'll pull down File Renamer II*
 
 I needed a bulk renamer for my digital camera files. The camera uses an alphanumeric naming convention that is useless for knowing what the picture is about. I looked around and didn't find anything I really like so I wrote this one. It uses the Windows Management interface to catalog all the fixed and USB drives and then display them in a traditional tree view. Whatever folder you are pointing to will then be scanned for files and they will be displayed in a list box to the right of the drives. The program watches for changes in your hard drive list by attaching to system management events, particularly the USB drives, and updates the drive list. It also watches the folder for changes by attaching to another system management event and then updates the file list.
 
