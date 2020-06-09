@@ -23,6 +23,8 @@ If you're a beginning programmer in C# and Windows Forms, this might be a bit of
 
 I am uploading both the source files and the compiled application. That way you can test drive it and see if it looks like something you'd like to use and/or dive into the code. Either way, ENJOY!
 
+[ Here's the extensive explanation of FileRenamer II on CodeProject. Most of it is the same as version III. <https://www.codeproject.com/Articles/482571/Using-Events-Filerenamer-II-Project> ]
+
 ## License
 
 This software is licensed under the GNU General Public License Version 3 (and newer if published).
